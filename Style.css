@@ -5,63 +5,15 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
+.wrap
+{
+	padding:20px;
+	height:auto;
+}
 
 html {
   scroll-behavior: smooth;
-}
-.slide
-{
- width:95%;
-  margin:auto;
-  overflow:hidden;
-}
-.slide ul
-{
-display: flex;
-padding: 0;
-width: 300%;
-  animation: cambio 20s infinite;
-}
- .slide li
-  {
-    
-   width: 100%;
-list-style: none;
-  }
-  
-  .slide img
-  {
-   width:100%; 
-  }
-
-.slide2
-{
- width:95%;
-  margin:auto;
-  overflow:hidden;
-}
-.slide2 ul
-{
-display: flex;
-padding: 0;
-width: 600%;
-  animation: cambio2 60s infinite;
-}
- .slide2 li
-  {
-    
-   width: 100%;
-list-style: none;
-  }
-  
-  .slide2 img
-  {
-   width:100%; 
-  }
-
-
-
+} 
 
 
 
@@ -72,8 +24,11 @@ body {
 background: #000000; 
 background: -webkit-linear-gradient(to right, #434343, #000000);  
 background: linear-gradient(to right, #434343, #000000); 
-
+    display: table;
+    height: 100%;
+    width: 100%;
 }
+
 
 .navbar {
    text-align: center;
@@ -159,18 +114,7 @@ color: white;
   padding: 30px;
    
 }
-
-ul, li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-ul.slider{
-  position: relative;
-  width: 1300px;
-  height: 625px;
-}
+ 
 .log
 {
 background: url("https://i.pinimg.com/originals/cc/a2/f0/cca2f03e5d6286eeaa1e129d9fc9fc7a.jpg");	
@@ -185,44 +129,7 @@ ul.slider li {
     transition: opacity .5s;
     background:#fff;
 }
-
-ul.slider li img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-ul.slider li:first-child {
-    opacity: 1;
-}
-
-ul.slider li:target {
-    opacity: 1; 
-}
-
-.menu{
-  text-align: center;
-  margin: 20px;
-  width: 1200px;
-}
-
-.menu li{
-  display: inline-block;
-  text-align: center;
-}
-
-.menu li a{
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  background-color: grey;
-  padding: 10px;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
-  border-radius: 100%;
-}
-
+ 
 .contenedort{
   margin-left : 250px;
    padding: 30px;
@@ -240,6 +147,8 @@ footer {
   padding: 3px;
   background-color: #b05c11;
   color: white;
+	display:table-row;
+	height:1px;
 }
 td
 {
@@ -361,116 +270,7 @@ align-self: start;
     margin: 0px 0px 0px calc((100% - 945px) * 0.5);
     right: 250px;
 }
-
-@keyframes cambio 
-{
-  0% { margin-left:0;}
-   30% { margin-left:0;}
-   33% { margin-left:-100%;}
-   63% { margin-left:-100%;}
-  66% { margin-left:-200%;}
-  96% { margin-left:-200%;}
-  
-}
-
-
-ul{list-style-type: none;}
-
-.calendario{
-	width: 100%;
-	max-width: 75%;
-	background: #E3E3E3;
-}
-
-.calendario .titulo{
-	width: 100%;
-	height: auto;
-	background: #1ABC9C;
-}
-
-.calendario .titulo ul{
-	width: 100%;
-	height: 200px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
-}
-
-.calendario .titulo ul li{
-	color: #FFF;
-	font-size: 1.3em;
-	text-align: center;
-}
-
-.calendario .titulo ul li span{
-	font-size: 14px;
-	display: block;
-}
-
-.calendar .titulo ul li.pr,
-.calendar .titulo ul li.ne{
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	position: absolute;
-	font-size: 20px;
-	cursor: pointer;
-	line-height: 40px;
-	transition: background 0.3s ease;
-}
-
-.calendario .titulo ul li.pr:hover,
-.calendario .titulo ul li.ne:hover{
-	background: rgba(255, 255, 255, 0.1);
-}
-
-.calendario .titulo ul li.pr{
-	left: 10px;
-	position:absolute;
-}
-
-.calendario .titulo ul li.ne{
-	right: 10px;
-	position:absolute;
-}
-
-
-
-.calendario ul.dias-sema,
-.calendario ul.dias{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.calendario ul.dias-sema{
-	background: rgba(0, 0, 0, .1);
-}
-
-.calendario ul.dias-sema li{
-	width: 13%;
-	text-align: center;
-	padding: 20px;
-	color: rgba(0, 0, 0, .6);
-}
-
-logvi
-{
-background-color: #245e90;
-background-image: url(../img/styles/login_pic_fon.png);
-background-position: center 25px;
-background-repeat: no-repeat	
-}
-
-
-.calendario ul.dias li{
-	width: 13%;
-	text-align: center;
-	padding: 15px;
-	color: rgba(0, 0, 0, .6);
-	font-size: 12px;
-}
+ 
 .resumen
 {
 display: none;
@@ -498,24 +298,4 @@ bottom: 50;
 
 .dropdown:hover .resumen {
   display: block;
-}
-
-
-
-
-@keyframes cambio2
-{
-  0% { margin-left:0;}
-   15% { margin-left:0;}
-   17% { margin-left:-100%;}
-   31% { margin-left:-100%;}
-  33% { margin-left:-200%;}
-  47% { margin-left:-200%;}
-  49% { margin-left:-300%;}
-  63% { margin-left:-300%;}
-  66% { margin-left:-400%;}
-  81% { margin-left:-400%;}
-  84% { margin-left:-500%;}
-  100% { margin-left:-500%;}
-  
-}
+} 
