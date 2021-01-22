@@ -321,7 +321,9 @@ height: 100px;
     height: 1200px;
      background-color: #dddddd1f;
    border-radius:25px;
-   padding-left:20px;
+   padding-left:25px;
+	
+display: inline-block;
 
 }
 .intro{
@@ -333,6 +335,22 @@ height: 100px;
     height: 100px;
     background-color: #ed64d7;
 } 
+.contenido1_1{
+	width: 100px;
+height:100px;
+background-color:darkgreen;
+border:3px solid yellow;
+display: inline-block;
+}
+
+
+
+
+
+
+
+
+
 .menu { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; } 
 .toggle { order: 1; } 
 .item.button { order: 2; } 
