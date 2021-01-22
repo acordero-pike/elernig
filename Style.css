@@ -74,7 +74,9 @@ body {
 .navbar {
    text-align: center;
   overflow: hidden;
-  background-color: black;
+  background-color: #b05c11;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
 }
 
 .navbar a {
@@ -138,7 +140,7 @@ body {
 }
 
 body{
-  background-color: #091235;
+  background-color: #0f1520;
   font-family: sans-serif;
   background-size: cover;
    background-position: center; 
@@ -232,7 +234,7 @@ ul.slider li:target {
 footer {
   text-align: center;
   padding: 3px;
-  background-color: black;
+  background-color: #b05c11;
   color: white;
 }
 td
