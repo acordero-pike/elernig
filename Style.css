@@ -341,8 +341,8 @@ line-height:1.52em;
 .conte2
 {
   position: relative;
-margin: 0px 0px 20px calc((100% - 500px) * 0.60);
-left: 56px;
+margin: 0px 0px 20px calc((100% - 500px) * 0.50);
+ 
 justify-self: start;
 align-self: start;
 }
