@@ -301,3 +301,9 @@ bottom: 50;
 .dropdown:hover .resumen {
   display: block;
 } 
+.contenidobasico{
+    width:100%;
+    height:900px;
+    background-color:brown;
+
+}
