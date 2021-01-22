@@ -301,10 +301,11 @@ bottom: 50;
 .dropdown:hover .resumen {
   display: block;
 } 
+/*basica*/
 .contenidobasico{
     width:100%;
-    height:900px;
-    background-color:brown;
+    height:auto;
+    background-color:#ffffff29;
 
 }
 
@@ -312,22 +313,23 @@ bottom: 50;
 .slogan{
 width: 900px;
 height: 100px;
-background-color: blueviolet;
+
 
 }
 .contenido-basico-intro{
-    width: 900px;
+    width: 925px;
     height: 1200px;
-    background-color: rgb(93, 148, 180);
-
+     background-color: #dddddd1f;
+   border-radius:25px;
+   padding-left:20px;
 
 }
 .intro{
-    background-color: burlywood;
-    border:2px solid chartreuse;
+   
+   
 }
 .imagen-intro{
     width: 100px;
     height: 100px;
-    background-color: cornflowerblue;
+    background-color: #ed64d7;
 }
