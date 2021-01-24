@@ -358,3 +358,160 @@ display: inline-block;
 .item.button { order: 2; } 
 .item { width: 100%; text-align: center; order: 3; display: none; } 
 .item.active { display: block; }
+
+
+
+
+
+
+
+
+.slogan3{
+width:100%;
+height: 100px;
+background-color:#148092;
+
+}
+.tema3{
+width:100%;
+height: 300px;
+  background-color: #19e6eecf;
+   border-radius:25px;
+   padding-left:25px;
+
+}
+.tema3-cont{
+	width:75%;
+height: 200px;
+background-color:#ffffff29;
+   border-radius:25px;
+   padding-left:25px;
+   display: inline-block;
+
+}
+.tema3-img{
+width:20%;
+height: 200px;
+  background-color:#ffffff29;
+   border-radius:25px;
+   padding-left:25px;
+   display: inline-block;
+
+}
+
+
+
+
+
+.slogan4{
+width:100%;
+height: 100px;
+background-color:#148092;
+
+}
+.tema4{
+width:100%;
+height: 300px;
+  background-color: #19e6eecf;
+   border-radius:25px;
+   padding-left:25px;
+
+}
+.tema4-cont{
+	width:75%;
+height: 200px;
+ background-color:#ffffff29;
+   border-radius:25px;
+   padding-left:25px;
+   display: inline-block;
+
+}
+.tema4-img{
+width:20%;
+height: 200px;
+background-color:#ffffff29;
+   border-radius:25px;
+   padding-left:25px;
+   display: inline-block;
+
+}
+
+
+
+.slogan5{
+width:100%;
+height: 100px;
+background-color:#148092;
+
+}
+.tema5{
+width:100%;
+height: 300px;
+  background-color: #19e6eecf;
+   border-radius:25px;
+   padding-left:25px;
+
+}
+.tema5-cont{
+	width:75%;
+height: 200px;
+ background-color:#ffffff29;
+   border-radius:25px;
+   padding-left:25px;
+   display: inline-block;
+
+}
+.tema5-img{
+width:20%;
+height: 200px;
+background-color:#ffffff29;
+   border-radius:25px;
+   padding-left:25px;
+   display: inline-block;
+
+}
+.slogan2{
+width:100%;
+height: 100px;
+background-color:#148092;
+
+}
+.tema2{
+width:100%;
+height: 300px;
+  background-color: #19e6eecf;
+   border-radius:25px;
+   padding-left:25px;
+
+}
+.tema2-cont{
+	width:75%;
+height: 200px;
+  background-color:#ffffff29;
+   border-radius:25px;
+   padding-left:25px;
+   display: inline-block;
+
+}
+.tema2-img{
+width:20%;
+height: 200px;
+background-color:#ffffff29;
+   border-radius:25px;
+   padding-left:25px;
+   display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
