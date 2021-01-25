@@ -13,7 +13,7 @@
 @media all and (min-width: 900px) { .item { display: block; width: auto; } .toggle { display: none; } .logo { order: 0; } .item { order: 1; } .button { order: 2; } .menu li { padding: 15px 10px; } .menu li.button { padding-right: 0; } }
 
 
-
+nav { background: #222; padding: 5px 20px; }
 
 
 
