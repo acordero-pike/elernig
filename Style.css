@@ -371,15 +371,15 @@ input
 .buton
   {
    
-     grid-row-start: 2;
-  grid-row-end: 2;
+     grid-row-start: 4;
+  grid-row-end: 4;
     grid-column-start: 2;
   grid-column-end: 2;
   }
   .buton2
   {
-     grid-row-start: 2;
-  grid-row-end: 2;
+     grid-row-start: 4;
+  grid-row-end: 4;
     grid-column-start: 3;
   grid-column-end: 3;
   }
@@ -389,6 +389,15 @@ height:100%;
   width:100%;
    grid-column-start: 1;
   grid-column-end: 2;
+
+}
+.datos ul
+{
+    position:absolute;
+}
+.datos ul, li
+{
+  padding: 0.5em;
 }
 
  .contenido{
@@ -416,14 +425,14 @@ height:100%;
   border-radius: 15px;
 background-color: #34426b9e;
 width: 100%;
-height: 14em;
+height: 15em;
 margin-bottom: 1em;
 display: grid;
 grid-template-columns: auto auto auto;
 grid-gap: 10px;
 border: 1px solid #e8e8e800;
 box-shadow: 0 1px 10px 0 rgba(255, 109, 2, 0.68);
-
+padding:2em;
 }
 
 .pie-pagina{
@@ -449,6 +458,31 @@ width:100%;
 {
 height:100%;
 }
+  .post{
+	 
+	 height: 14em;
+	margin-bottom: 1em;
+   
+    
+}
+  
+.buton
+  {
+     margin-left:160px;
+     grid-row-start: 3;
+  grid-row-end: 3;
+    grid-column-start: 5;
+  grid-column-end: 5;
+  }
+  .buton2
+  {
+    margin-left:160px;
+     grid-row-start: 4;
+  grid-row-end: 4;
+    grid-column-start: 5;
+  grid-column-end: 5;
+  }
+  
 }
 
 @media screen and (min-width: 480px) and (max-width: 780px){
@@ -468,15 +502,33 @@ height:100%;
   .datos li
   {
     height:1.5em;
+    width:18em;
   }
   .post{
 	 
-	 height: 12em;
+	 height: 13em;
 	margin-bottom: 1em;
    
     
 }
   
+  
+.buton
+  {
+     margin-left:210px;
+     grid-row-start: 4;
+  grid-row-end: 4;
+    grid-column-start: 5;
+  grid-column-end: 5;
+  }
+  .buton2
+  {
+     margin-left:210px;
+     grid-row-start: 5;
+  grid-row-end: 5;
+    grid-column-start: 5;
+  grid-column-end: 5;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -500,31 +552,21 @@ height:100%;
   
 .buton
   {
-     
-     grid-row-start: 2;
-  grid-row-end: 2;
-    grid-column-start: 2;
-  grid-column-end: 2;
+     margin-left:160px;
+     grid-row-start: 3;
+  grid-row-end: 3;
+    grid-column-start: 5;
+  grid-column-end: 5;
   }
   .buton2
   {
-     grid-row-start: 2;
-  grid-row-end: 2;
-    grid-column-start: 3;
-  grid-column-end: 3;
+    margin-left:160px;
+     grid-row-start: 4;
+  grid-row-end: 4;
+    grid-column-start: 5;
+  grid-column-end: 5;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
