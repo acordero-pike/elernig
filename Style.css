@@ -569,5 +569,25 @@ height:100%;
 
 
 
+/*inicio de sesion*/
+.sesion{
+  width:275px;
+  height:400px;
+  background-color:;
+  border-color:white;
+}
+.sesion2{
+  padding-left:20px;
+  padding-top:45px;
+  margin-left:15px;
+  width:230px;
+  height:250px;
+  background-color:background: #16A085;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+  border-radius:25px;
+}
+
 
 
