@@ -656,6 +656,7 @@ text-decoration: none;
 }
   img { width:100%; heiht:200px;  }
 
+.col-6  input {   width: 75%; }
 .footer {
   background-color: #0099cc;
   color: #ffffff;
@@ -684,6 +685,7 @@ text-decoration: none;
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
    img { width:100%; heiht:200px;  }
+  .col-6  input {   width: 75%; }
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -700,5 +702,5 @@ text-decoration: none;
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
    img { width:100%; heiht:200px;  }
+  .col-6  input {   width: 75%; }
 }
-
