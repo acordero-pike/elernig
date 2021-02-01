@@ -664,8 +664,13 @@ text-decoration: none;
   font-size: 12px;
   padding: 15px;
 }
+.col-3 
+{
+  height:100%;
+}
 
-/* For mobile phones: */
+
+/* telefonos */
 [class*="col-"] {
   width: 100%;
 }
@@ -686,6 +691,10 @@ text-decoration: none;
   .col-s-12 {width: 100%;}
    img { width:100%; heiht:200px;  }
   .col-6  input {   width: 35%; }
+  .col-3 
+{
+  height:100em;
+}
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -703,4 +712,8 @@ text-decoration: none;
   .col-12 {width: 100%;}
    img { width:100%; heiht:200px;  }
   .col-6  input {   width: 50%; }
+  .col-3 
+{
+  height:125em;
+}
 }
