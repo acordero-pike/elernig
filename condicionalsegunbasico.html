@@ -51,70 +51,125 @@ intermedio | L2G
 <div class="row">
   <div class=" col-3 col-s-3 asideM">
     <ul>
-      <li><a href="#1">  ¿Que es Recursividad? </a></li>
-      <li><a href="#2"> Funciones como ciclos </a></li>
-      <li><a href="#3"> Funciones con recursividad  </a></li>
-      <li><a href="#4">¿se puede usar un proceso para recursividad? </a></li>
-       <li><a href="#5"> Buenas practicas en recursividad </a></li>
+      <li><a href="#1">  ¿Qué es un ciclo sgun? </a></li>
+      <li><a href="#2"> Ejemplo condicional segun </a></li>
      
          
     </ul>
   </div>
 
   <div class="col-6 col-s-9">
-    <h1 id="#1"> ¿Que es Recursividad? </h1>
+    <h1 id="#1"> ¿Qué es un ciclo sgun? </h1>
     <p> 
-    Concepto basico de Recursividad es el simple hecho de llamarse a asi mismo.  El ejemplo clásico es la función que calcula el factorial de un número. Un factorial consiste en multiplicar un número natural por el número anterior, y este a su vez por el anterior, y así sucesivamente hasta llegar al número 1. Por ejemplo, el factorial de 8 sería el resultado de multiplicar 8 por 7, luego por 6 y así sucesivamente hasta llegar a uno.    </p>
- <iframe width="560" height="335" src="https://www.youtube.com/embed/RAK-4I3xj_8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      Cuando hablamosde un ciclo condicional <strong>segun</strong> o tambien llamado <strong>switch case</strong>. Un ciclo segun es parecido al cilo si o tambien llamado <strong >ciclo if</strong>, bueno son parecidos ya que cada en cada ciclo condiconal siempre hay una condicion para que suceda algo,si es verdadro ejecuta cierta accion el algoritmo y si no es verdadero ejecutara otra instruccion.
+      El condicional segun es muy bueno al momento de trabajar con algun menu, como por ejemplo
+      cuando te dicen: si tú eliges el numero 1 te ganas unas papatas, si elegis el 2 ganaras unsa soda, si eleiges el 3 te ganas un combo de patatas,soda y una rica amburguesa. Entonces un ciclo segun o (switch case) es una gran opcion ya que si trabajas en solo cilos si (if) podrias confundirte o cometer errores, cuando en tu algoritmo tienes qu elegir una o varias lineas de codigo que tengas que ejecutar en tu algoritmo.<br><br>
+      aqui tines un ejemplo de un ciclo segun o switch case en c++
+    </p>
+ <img  src="https://i2.wp.com/ehack.info/wp-content/uploads/2018/12/mswitchPrg678x381-1.png?fit=678%2C381&ssl=1" class="ejemplo1"> </img>
+  <p>acá tines un video qu explica un menu usando el condicional segun </p>
+  <iframe width="560" height="335" src="https://www.youtube.com/watch?v=jP2AOxXa6Hg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  
   </div>
 
 	
 	
  
   <div class="col-6 col-s-9">
-    <h1 id="#2"> Funciones como ciclos </h1>
-    <p> 
-    como funciona un ciclo? , hace una serie de tareas dando un numero de vueltas determinado , pero se puede emplear algo asi en una funcion , pues si dejame decirte que si 
-    practico quiza no sea ya que el uso de memoria seria mucho mayor , pero se podria usar y te preguntaras entonces porque mencionarlo ?
-    la verdad se menciona para que desde ya tengas en la mente que no existe una forma de cajon para hacer las cosas llevado a la practica seria un poco costoso porque en la llamada de este tendiras que usar un autosumable 
-    definir cuando termina y hacer los calculos.      <strong> RECUERDA QUE ESTE TEMA ES SOLO PARA QUE TU SEPAS QUE SE PUEDEN REALIZAR MAS NO ES ACONSEJABLE SU USO YA QUE NO SERIAN LOS MAS EFICIENTES  </strong>
+    <h1 id="#2"> Ejemplo condicional segun </h1>
+	<p>
+          Con la palabra reservada definir declaramos las variables a, b, x y las declaramos de tipo real.<br><br>
+
+      <strong> Definir a,b,x como real</strong><br><br>
+
+Después mostramos un mensaje en pantalla  y pedimos dos números entre comilla dobles, esto lo hacemos con la función escribir.<br><br>
+
+      <strong>Escribir «Escribe dos numeros»</strong><br><br>
+
+Con la función leer asignamos en la variables a y b los números ingresados por teclado.<br><br>
+
+      <strong>leer a,b</strong><br><br>
+
+Después inicializamos la variable X en cero, esto lo hacemos a si para que se pueda cumplir la condición del ciclo mientras. <br><br>     
+
+      <strong>x = 0</strong><br><br>
+
+Colocamos un ciclo mientras con la condición mientras que numero sea diferente de 5 si la condición se cumple entonces mostramos un menú en pantalla.<br><br>
+
+      <strong>Mientras x <> 5 hacer</strong> <br><br>
+
+Este menú muestra en pantalla con la función escribir las cuatro operaciones básica: suma, resta, multiplicación, división y una opción para salir.<br><br>
+
+        <strong>Escribir «Elige una opción </strong>«<br><br>
+
+        <strong>Escribir «1 = suma»</strong><br><br>
+
+        <strong>Escribir «2 = resta»</strong><br><br>
+
+        <strong>Escribir «3 = multiplicación”</strong><br><br>
+
+        <strong>Escribir «4 = división»</strong><br><br>
+
+        <strong>Escribir «5 = salir»</strong><br><br>
+
+Con la función leer asignamos en la variable x la opción que elija el usuario.<br><br>
+
+        <strong>leer x</strong><br><br>
+
+Utilizamos la estructura según y dependiendo la opción que elija el usuario realizamos las operaciones básica.<br><br>     
+
+        <strong>segun x hacer</strong><br><br>
+
+        <strong>  1:</strong><br><br>
+
+Cuando en la variable x se almacene el número uno entonces realizamos la suma de a + b y lo mostramos en pantalla con la función escribir.<br><br>
+
+        <strong>Escribir «La suma de «,a,» + «,b,» = «,a+b</strong><br><br>
+
+
+ 
+        <strong> 2:</strong><br><br>
+
+La opción numero dos corresponde a la resta y mostramos la resta en pantalla con un mensaje concatenado.<br><br>
+
+        <strong>Escribir «La resta de «,a,» – «,b,» = «,a-b<strong>/<br><br>
+
+          <strong>3:</strong><br><br>
+
+La opción tres corresponde a la multiplicación mostramos concatenado con la función escribir esta operación.
+
+          <strong> Escribir «La multiplicacion de «,a,» x «,b,» = «,a*b</strong><br><br>
+
+          <strong> 4:</strong><br><br>
+
+En la opción cuatro mostramos un mensaje concatenado y realizamos la división.<br><br>
+
+          <strong>Escribir «La division de «,a,» / «,b,» = «,a/b</strong><br><br>
+
+          <strong>De Otro Modo:</strong><br><br>
+
+De lo contrario si se elige otro número diferente a estas cuatro opciones el sistema finaliza.<br><br>
+
+          <strong> x = 5</strong><br><br>
+
+Por ultimo finalizamos la estructura según cerramos el ciclo mientras y finalizamos el algoritmo.<br><br>
+
+          <strong>FinSegun</strong><br><br>
+
+          <strong>FinMientras</strong><br><br>
+
+          <strong>FinAlgoritmo</strong><br><br>
     </p>
+
+
  <br>
  <br>
-	 <img  src="Captura.PNG"> </img>
+       <img  src="https://pseudocodigoejemplos.com/wp-content/uploads/2020/03/Algoritmo-que-realice-las-4-operaciones-basicas.jpg" class="ejemplo2"> </img>
   </div>
 	
 	
 
-  <div class="col-6 col-s-9">
-    <h1 id="#3"> ¿se puede usar un proceso para recursividad?  </h1>
-    <p> 
-    Pues este es igual que el tema anterior se puden ahcer mas no quiere decir que este sea el mas factible en rederizar , porque para hacer esto se necesitaria hacer dos procesos que se llamen entre si hasta que se cumpla que termina el ciclo 
-    lo cual aca seria mas dificl de procesar ya que debemos enviar datos entre ambos procesos para asi no perder el contro de lo que se esta realizando 
-    <strong> RECUERDA QUE ESTE TEMA ES SOLO PARA QUE TU SEPAS QUE SE PUEDEN REALIZAR MAS NO ES ACONSEJABLE SU USO YA QUE NO SERIAN LOS MAS EFICIENTES  </strong>
-    </p>
-
-    
-  </div>
-	
-
-
-
-  <div class="col-6 col-s-9">
-    <h1 id="#5">  Buenas practicas en recursividad  </h1>
-    <p> 
-    de las mejores practicas que puedes usar y no solo en recursividad es el comentar el codigo y dejar explicito que hace y cual es la variable que se usa.
-    El hacerlo en papel primero el planteo de como se realizaria de esa forma. El manejo de la salida porque al igual que en los ciclos podrias crear un ciclo infinito del cual no  podrias salir de no ser por que Pseint te permite el paro total del programa
-    pero imagina que de alguna forma esto llegara a un usuario , esto crearia un bug del cual saldria hasta que se acaba la memoria 
-    manejo de las varibles con nombres reconocibles.
-    </p>
- <img  src=" https://sig.unad.edu.co/images/banco_practicas/boton-banco-buenas-practicas.png"> </img>
-    
-  </div>
-	
-	
-  
-</div>
 		
 		
 		
