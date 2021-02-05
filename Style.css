@@ -655,6 +655,10 @@ text-decoration: none;
   font-size: 14px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+.lgoinicial
+{
+	width:350px;
+}
 .lgo
 {
 	width:350px;
