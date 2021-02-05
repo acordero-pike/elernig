@@ -342,18 +342,7 @@ bottom: 50;
 .menu-main a.active{
     background-color: #29487d;
 }
-.menu-main .buscador
-{
-	flex: 1;
-font-family: arial;
-display: flex;
-color: #ffffff;
-text-decoration: none;
-font-size: 12px;
-font-weight: bold;
-justify-content: center;
-align-items: center;
-}
+ 
 
 @media (max-width: 768px) {
     
