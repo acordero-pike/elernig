@@ -50,50 +50,73 @@ intermedio | L2G
 <div class="row">
   <div class=" col-3 col-s-3 asideM">
     <ul>
-      <li><a href="#1">  ¿Que es Recursividad? </a></li>
-      <li><a href="#2"> Funciones como ciclos </a></li>
-      <li><a href="#3"> Funciones con recursividad  </a></li>
-      <li><a href="#4">¿se puede usar un proceso para recursividad? </a></li>
-       <li><a href="#5"> Buenas practicas en recursividad </a></li>
+      <li><a href="#1">   Definicion de arreglos </a></li>
+      <li><a href="#2">  tipos de arreglos </a></li>
+      <li><a href="#3"> Arreglos Unidimensionales  </a></li>
+      <li><a href="#4">Recorrido de un arreglo  </a></li>
+ 
      
          
     </ul>
   </div>
 
   <div class="col-6 col-s-9">
-    <h1 id="#1"> ¿Qué es un ciclo sgun? </h1>
+    <h1 id="#1"> Definicion de arreglos </h1>
     <p> 
-      Cuando hablamosde un ciclo condicional <strong>segun</strong> o tambien llamado <strong>switch case</strong>. Un ciclo segun es parecido al cilo si o tambien llamado <strong >ciclo if</strong>, bueno son parecidos ya que cada en cada ciclo condiconal siempre hay una condicion para que suceda algo,si es verdadro ejecuta cierta accion el algoritmo y si no es verdadero ejecutara otra instruccion.
-      El condicional segun es muy bueno al momento de trabajar con algun menu, como por ejemplo
-      cuando te dicen: si tú eliges el numero 1 te ganas unas papatas, si elegis el 2 ganaras unsa soda, si eleiges el 3 te ganas un combo de patatas,soda y una rica amburguesa. Entonces un ciclo segun o (switch case) es una gran opcion ya que si trabajas en solo cilos si (if) podrias confundirte o cometer errores, cuando en tu algoritmo tienes qu elegir una o varias lineas de codigo que tengas que ejecutar en tu algoritmo.
+      Un arreglo es en resumen un conjunto de datos finito y del mismo tipo.  En realidad funciona como cualquier variable cualquiera , excepto que en lugar de almacenar un solo valor, guarda algunos valores. Los arreglos pueden representarse en varias dimensiones: Unidimensionales, Bidimensionales, hasta nDimensionales.  En esta unidad se estudiarán los de una y dos dimensiones.  Iniciaremos por los primeros.
     </p>
- <iframe width="560" height="335" src="https://www.youtube.com/embed/RAK-4I3xj_8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <img  src="http://www.utn.edu.ec/reduca/programacion/arreglos/RepGraficaArreglo.jpeg"> </img>
+  <p>
+    <br>
+    Con esta imagen es posible observar que un arreglo unidimensional es una estructura, dividida en celdas, donde cada una de ellas representa un espacio de almacenamiento.  Para acceder a sus posiciones se utilizan los pequeños números que en la figura aparecen la parte superior, se les denomina índices, y representan las posiciones. El primer índice en realidad depende del software, y generalmente es 0 o 1. En el caso del lenguaje de programación C y Java, este indice inicial es 0.<br><br>
+
+La imagen también permite demostrar que es FINITO; así es posible observar que tiene un inicio, en la posición 0 y un final en la posición N-1, donde N es el tamaño del arreglo.  Es importante recordar que el tamaño del arreglo, representa la cantidad de memoria que se reservará para usar esta estructura, por lo que NO podrá variarse durante el tiempo de ejecución de un programa.
+  </p>
   </div>
 
 	
 	
  
   <div class="col-6 col-s-9">
-    <h1 id="#2"> Funciones como ciclos </h1>
+    <h1 id="#2"> tipos de arreglos </h1>
     <p> 
-    como funciona un ciclo? , hace una serie de tareas dando un numero de vueltas determinado , pero se puede emplear algo asi en una funcion , pues si dejame decirte que si 
-    practico quiza no sea ya que el uso de memoria seria mucho mayor , pero se podria usar y te preguntaras entonces porque mencionarlo ?
-    la verdad se menciona para que desde ya tengas en la mente que no existe una forma de cajon para hacer las cosas llevado a la practica seria un poco costoso porque en la llamada de este tendiras que usar un autosumable 
-    definir cuando termina y hacer los calculos.      <strong> RECUERDA QUE ESTE TEMA ES SOLO PARA QUE TU SEPAS QUE SE PUEDEN REALIZAR MAS NO ES ACONSEJABLE SU USO YA QUE NO SERIAN LOS MAS EFICIENTES  </strong>
+      Por el momento vamos ver los tipos de arreglos y hablaremos de un solo un tipo, ya que en el siguiente apartado estaremos hablando de los otros tipos de arreglos
+      <ol>
+        <li>Arreglos unidimensionales(Una dimension)</li>
+         <li>Arreglos multidimensionales.(Dos dimensiones)</li>
+         <li>Arreglo con múltiple subíndices.(Multiples dimensiones)</li>
+    </ol>
+
     </p>
  <br>
  <br>
-	 <img  src="Captura.PNG"> </img>
+  <p>Arreglo de una sola dimension</p>
+  <img  src="http://3.bp.blogspot.com/-cC2b3F5w0Z8/V6VfcyIcLWI/AAAAAAAAAD8/JkO5r07ott0q1YyNPN7IMSxRzcmD-8O5QCK4B/s1600/Captura.PNG"> </img>
+	 
   </div>
 	
 	
 
   <div class="col-6 col-s-9">
-    <h1 id="#3"> ¿se puede usar un proceso para recursividad?  </h1>
+    <h1 id="#3"> Arreglos Unidimensionales </h1>
     <p> 
-    Pues este es igual que el tema anterior se puden ahcer mas no quiere decir que este sea el mas factible en rederizar , porque para hacer esto se necesitaria hacer dos procesos que se llamen entre si hasta que se cumpla que termina el ciclo 
-    lo cual aca seria mas dificl de procesar ya que debemos enviar datos entre ambos procesos para asi no perder el contro de lo que se esta realizando 
-    <strong> RECUERDA QUE ESTE TEMA ES SOLO PARA QUE TU SEPAS QUE SE PUEDEN REALIZAR MAS NO ES ACONSEJABLE SU USO YA QUE NO SERIAN LOS MAS EFICIENTES  </strong>
+Es un tipo de datos estructurado que está formado de una colección finita y ordenada de datos del mismo tipo. Es la estructura natural para modelar listas de elementos iguales. Están formados por un conjunto de elementos de un mismo tipo de datos que se almacenan bajo un mismo nombre, y se diferencian por la posición que tiene cada elemento dentro del arreglo de datos. Al declarar un arreglo, se debe inicializar sus elementos antes de utilizarlos. Para declarar un arreglo tiene que indicar su tipo, un nombre único y la cantidad de elementos que va a contener.<br><br>
+ Un vector es una array unidimensional. <br><br>
+      ejemplo: Para declarar un vector de 10 enteros:<br>
+
+      <strong>Definir vector como Entero</strong>;<br>
+      <strong>Dimension vector[10];</strong><br>
+Para acceder a cada uno de los elementos del vector utilizamos un índice. el primer elemento se accede con el índice 0. Podemos trabajar individualmente con cada uno de los elementos:<br><br>
+      <strong>vector[0]<-10;</strong><br><br>
+        <strong>Escribir vector[0];</strong><br><br>
+El acceso a un elemento que no existe producirá un error, por ejemplo:<br>
+
+        <strong>vector[10]<-10;</strong ><br><br>
+          Este error ocurre ya que en la posicion 10 del vector no existe ya que, es ceirto pusimos entre corchetes el numero 10 porque almacenara 10 valores, pero hay que recordar que en este caso los arreglos se estan trabajando desde cero y no desde 1.<br>
+          Entonces queda claro que en este caso, si queremos reccorrer a ultima posicion de mi arreglo seria:<br>
+          <strong>vector[9]<-10;</strong> <br>
+            y en esa ultima posicion estamos dandole el valor de 10<br><br>
+      
     </p>
 
     
@@ -103,14 +126,27 @@ intermedio | L2G
 
 
   <div class="col-6 col-s-9">
-    <h1 id="#5">  Buenas practicas en recursividad  </h1>
-    <p> 
-    de las mejores practicas que puedes usar y no solo en recursividad es el comentar el codigo y dejar explicito que hace y cual es la variable que se usa.
-    El hacerlo en papel primero el planteo de como se realizaria de esa forma. El manejo de la salida porque al igual que en los ciclos podrias crear un ciclo infinito del cual no  podrias salir de no ser por que Pseint te permite el paro total del programa
-    pero imagina que de alguna forma esto llegara a un usuario , esto crearia un bug del cual saldria hasta que se acaba la memoria 
-    manejo de las varibles con nombres reconocibles.
-    </p>
- <img  src=" https://sig.unad.edu.co/images/banco_practicas/boton-banco-buenas-practicas.png"> </img>
+    <h1 id="#5">  Recorrido de un arreglo   </h1>
+    <p>
+      Vamos a inicializar todos los elementos de un vector. Para ello vamos a recorrer el vector e inicializar cada elemento con un valor ,por ejemplo lo vamos a inicializar a 0. Para recorrer un vector utilizamos un bucle Para:<br><br>
+      
+      <strong>Para i<-0 hasta 9 Hacer</strong><br>
+        <strong>array[ i ]<-0;</strong><br>
+          <strong>FinPara</strong><br><br>
+      En este ejemplole decimos al ciclo para que empiece desde 0 y hasta 10 
+      entoncs despues ponemos el nombre del arreglos y entre corchetes le ponemos la letra [ i ] ya que esta letra es quien recorrera las posiciones del arreglo
+      
+      <br>
+      <br>
+      Podríamos recorrer el vector para mostrar el valor de los elementos:<br><br>
+
+      <strong>Para i<-0 hasta 9 Hacer</strong><br><br>
+        <strong>Escribir array[ i ];</strong><br><br>
+        <strong>FinPara</strong><br>
+      
+    </p> 
+
+
     
   </div>
 	
@@ -135,3 +171,4 @@ intermedio | L2G
 
 </body>
 </html>
+
