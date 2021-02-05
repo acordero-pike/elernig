@@ -696,6 +696,10 @@ text-decoration: none;
 {
   height:100em;
 }
+	.lgo
+	{
+		widht:75%
+	}
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -718,6 +722,10 @@ text-decoration: none;
 {
   height:135em;
 }
+	.lgo
+	{
+		widht:50%
+	}
 }
 
 /*basico algoritmo 1/02/21*/
