@@ -342,7 +342,7 @@ bottom: 50;
 .menu-main a.active{
     background-color: #29487d;
 }
-.menu-main div
+.menu-main .buscador
 {
 	flex: 1;
 font-family: arial;
