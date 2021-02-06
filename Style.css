@@ -58,6 +58,15 @@ background: linear-gradient(to right, #434343, #000000);
 .dropdown {
   float: left;
   overflow: hidden;
+	flex: 1;
+font-family: arial;
+ 
+color: #ffffff;
+text-decoration: none;
+font-size: 12px;
+font-weight: bold;
+justify-content: center;
+align-items: center;
 }
 
 .dropdown .dropbtn {
@@ -194,7 +203,18 @@ a
 {
  text-decoration: none;
 color: lightskyblue;
- 
+ .buscador
+	{
+	flex: 1;
+font-family: arial;
+display: flex;
+color: #ffffff;
+text-decoration: none;
+font-size: 12px;
+font-weight: bold;
+justify-content: center;
+align-items: center;	
+	}
 }
 .text
 {
