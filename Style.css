@@ -803,6 +803,10 @@ text-decoration: none;
 	{
 		widht:75%
 	}
+	.recurs
+	{
+	  height:150em;	
+	}
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -826,10 +830,7 @@ text-decoration: none;
 {
   height:140em;
 }
-	.recurs
-	{
-	  height:150em;	
-	}
+	
 	.lgo
 	{
 		widht:50%
