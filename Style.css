@@ -433,6 +433,19 @@ margin-left: 40%;
 .menu-main .dropdown:hover .dropdown-content {
   display: block;
 }
+	
+	.buscador 
+	{
+	flex: 2;
+font-family: arial;
+display: flex;
+color: #ffffff;
+text-decoration: none;
+font-size: 12px;
+font-weight: bold;
+justify-content: center;
+align-items: center;	
+	}
 
 
 }
