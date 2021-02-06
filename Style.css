@@ -849,4 +849,6 @@ text-decoration: none;
 @media only screen and (min-width: 768px)
   {
    .col-s-3 {width: 25%;}
+	   .imgs { height:10em}
+  .video { height:10em}
 }
