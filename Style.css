@@ -203,6 +203,8 @@ a
 {
  text-decoration: none;
 color: lightskyblue;
+
+}
  .buscador
 	{
 	flex: 2;
@@ -215,7 +217,7 @@ font-weight: bold;
 justify-content: center;
 align-items: center;	
 	}
-}
+
 .text
 {
  width:921px;
@@ -434,7 +436,7 @@ margin-left: 40%;
   display: block;
 }
 	
-	.buscador 
+.menu-main .buscador 
 	{
 	flex: 2;
 font-family: arial;
