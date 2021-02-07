@@ -1,0 +1,164 @@
+ <html>
+<head>
+	 
+	<title>
+intermedio | L2G
+  </title><link href="Style.css" rel="stylesheet" type="text/css"></head>
+  
+
+<body><header>
+
+ 
+     <nav class="menu-main">
+       <a href="https://acordero-pike.github.io/elernig/index.html"> <img src="logo.png" style="width:50px; height:50px;"></a>
+	     <div class="dropdown">
+    <button class="dropbtn">Cursos 
+       
+    </button>
+    <div class="dropdown-content">
+      <a href=" https://acordero-pike.github.io/elernig/basico.html" style="color:Black"> Algoritmos Basico </a>
+      <a href="https://acordero-pike.github.io/elernig/intermedio.html " style="color:Black">Algoritmos Intermedio</a>
+      <a href=" https://acordero-pike.github.io/elernig/avanzado.html" style="color:Black"> Algoritmos Avanzado </a>
+    
+  </div>    
+  </div>
+     <div class="buscador">
+	       <input type="search" style="height: 25px;margin-top: 12px;border-radius: 25px;text-align: center;">
+    <input type="submit" value="Buscar" style="width: 100;height: 25;border-radius: 25px;background: #1795aa;">
+    
+	     </div>
+	     
+	 
+	<a href="https://acordero-pike.github.io/elernig/login.html">Iniciar sesion </a>
+	<a href="https://acordero-pike.github.io/elernig/registro.html">Registrarse</a>
+      <a href="https://acordero-pike.github.io/elernig/contacto.html">Contactenos</a>
+        
+     
+ 
+    </nav>
+  
+  
+ 
+
+</header> 
+ 
+ 
+ 
+	 
+		
+        
+<div class="row">
+  <div class=" col-3 col-s-3 asideM">
+    <ul>
+      <li><a href="#1">   Definicion de una matriz </a></li>
+      <li><a href="#2"> ejemplo matrices(video) </a></li>
+      <li><a href="#3"> ejemplo matriz 2x2  </a></li>
+
+ 
+     
+         
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1 id="1"> ¿Qué es un archivo? </h1>
+    <p style="font-size:20px"> 
+      
+      En terminos mas simples un arreglos bidimensional es aquel que tiene dos dimensiones, y cuando hablamso de dos dimensiones podemos dar un ejemplo muy comun de una tabla con filas y columnas, o bien tambien se pueden llamar <Strong>matrices</strong>.<br>
+      Es exactamente igual que los arreglos solo que ahora se le arega un arreglo mas en vez de ser solo un arreglo ahora son dos.<br>
+      Las matrices llegan a ser muy importantes ya que se puede trabajar los datos de una mejor manera. <br>
+      Al igual que el arreglo o <string>Vector</strong> tienen que ser finitos.
+      
+      
+    </p>
+
+     <img src="http://www.utn.edu.ec/reduca/programacion/arreglos/RepGraficaArregloBidimensional.jpg" class="ejemplo1">
+    <p style="font-size:20px">
+      En la imagen es posible observar que un arreglo bidimensional es una matriz, formada por filas y columnas, en la que cada celda (intersección de fila y columna) representa un espacio de almacenamiento. Las columnas amarillo y rojo representan la primera y última columna respectivamente, y las filas naranja y azul representan la primera y última fila. Para acceder a sus posiciones se utilizan los índice de fila y columna, en ese orden. Recordando que en C y Java el índice inicial es 0.
+    </p>
+     <img src="https://sites.google.com/site/metodologiadhpc/_/rsrc/1468869337785/arreglos/bidimencionales/i.png?height=213&width=400" class="ejemplo2">
+    
+  <p style="font-size:20px">
+    <br>
+   Con esta imagen es posible apreciar que el vector o arreglo de filas tambien tienen posiciones que va desde 1 hasta 3 y cada posiscion representa un elemento.<br>
+    Tambien es facil ver que existe posiciones en el vector o arreglo de las columnas que va desde 1 hasta 4.<br>
+    Si deseamos encontrar un elemento dentro de la matriz podemos ir a buscarlo desde la posicion en la que se encuentra<br> ejemplo: <br>
+    Quiero buscar el elemento que esta en la poscion (filas, columnas) (2,3), primero van las filas y luego las columnas, el resultado de la busqueda seria: 6<br>
+    ya que se encuentra en la fila 2 y columna 3.
+    
+  </p>
+  </div>
+
+	
+	
+ 
+  <div class="col-6 col-s-9">
+    <h1 id="2">ejemplo matrices(video) </h1>
+    <p> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q4NVndqYHig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+ <br>
+ <br>
+	 
+  </div>
+	
+	
+
+  <div class="col-6 col-s-9">
+    <h1 id="3"> ejemplo matriz 2x2 </h1>
+    <p style="font-size:20px"> 
+	
+      Matrices en pseint
+
+Tal como en excel que existen filas y columnas por cada celda que contiene un valor, tambien en pseint se puede crear una matriz, para lo cual se deben crear dos indices para saber cual es la fila y columna donde se ubicara un valor.<br ><br>
+
+Proceso Matriz<br><br>
+//Primero se crea la matriz de 2 x 2 y se define su tipo, asi como los dos indices para la fila y columna<br><br>
+      <strong>Dimension M [ 2 , 2 ];</strong><br>
+      <strong>Definir M,I,J como Entero;</strong>
+<br><br>       
+    // Leer valores, aqui se cargan los valores en cada celda<br><br>
+      <strong> Para J<-1 Hasta 2 Hacer </strong><br>
+        <strong>Para I<-1 Hasta 2 Hacer</strong><br>
+          <strong>Escribir 'Ingrese valor para indice ',I,', en columna ',J,' : ';</strong><br>
+          <strong>Leer M[ I , J ]</strong><br>
+          <strong>FinPara</strong><br>
+          <strong>FinPara</strong><br><br>
+   
+   
+    // Mostrar valores de cada celda<br><br>
+    
+          <strong>Para I<-1 Hasta 2 Hacer</strong><br>
+            <strong>Para J<-1 Hasta 2 Hacer</strong><br>
+              <strong>Escribir ',El valor para indice ',I,', en columna ',J,'es :', M[ I, J ];</strong><br>           
+              <strong>FinPara</strong><br>
+              <strong>FinPara</strong><br>
+   
+              <strong>FinProceso</strong><br>
+
+      
+      
+      
+      
+      
+    </p>
+  </div>	
+</div>
+		
+		
+		
+      
+      
+ 
+   
+ <footer>
+	   
+  <img src="logo.png" style="width:50px; height:50px;">
+     
+   
+     
+	</footer>
+ 
+
+</body>
+</html>
