@@ -50,9 +50,9 @@ intermedio | L2G
 <div class="row">
   <div class=" col-3 col-s-3 asideM">
     <ul>
-      <li><a href="#1">   Definicion de una matriz </a></li>
-      <li><a href="#2"> ejemplo matrices(video) </a></li>
-      <li><a href="#3"> ejemplo matriz 2x2  </a></li>
+      <li><a href="#1"> ¿Que es un reegistro? </a></li>
+      <li><a href="#2"> Registro de vehiculos(video) </a></li>
+      <li><a href="#3"> Registros con arreglos  </a></li>
 
  
      
@@ -61,30 +61,27 @@ intermedio | L2G
   </div>
 
   <div class="col-6 col-s-9">
-    <h1 id="1"> ¿Qué es un archivo? </h1>
+    <h1 id="1"> Como surge la necesidad del manejo de registros </h1>
     <p style="font-size:20px"> 
-      
-      En terminos mas simples un arreglos bidimensional es aquel que tiene dos dimensiones, y cuando hablamso de dos dimensiones podemos dar un ejemplo muy comun de una tabla con filas y columnas, o bien tambien se pueden llamar <Strong>matrices</strong>.<br>
-      Es exactamente igual que los arreglos solo que ahora se le arega un arreglo mas en vez de ser solo un arreglo ahora son dos.<br>
-      Las matrices llegan a ser muy importantes ya que se puede trabajar los datos de una mejor manera. <br>
-      Al igual que el arreglo o <string>Vector</strong> tienen que ser finitos.
-      
+	En este curso vamos a hablar cobre los registros, y trataremos de darle una explicacion con algun lenguaje de pseudocodigo y no en un lenguaje formal, ya que estamos en algoritmos.<br>
+      Un registro es una forma de almacenar datos o imformacion que se pueda dar en nuestro programa. Entonces podriamos usar arreglos, pero en los arreglos solo podemos almacenar un tipod e imformacion ya sea un arreglo que sea de numeros o un arreglos que sea solo de texto, pero es in poco dificil trabajar con arreglos que tengan dos tipos de imformacion.<br>
+      un registro es como una tala o un formulario que llenas cuando vas a buscar un trabajao, por ejemplo:<br> comun mente en un formulario de trabajo te piden lo siguiente:<br>
+      nombre,edad,direccion de donde vives,numero de telefono, estado civil, etc.<br>
+      ante esta situacion podriamos quiza usar muchas variables para poder llenar este tipode imformacion para una persona, pero ¿que pasa si tenemos mas de mil perosnas?<br>
+      nuestra pc terminaria colapsando ya que tendriamos demasiadas variables y con ello ocuapariamos mucha memoria.<br>
+      Ante esto se crea usar lo que llamamos los registros ya que los registros alamacenan multiples variables.
       
     </p>
 
-     <img src="http://www.utn.edu.ec/reduca/programacion/arreglos/RepGraficaArregloBidimensional.jpg" class="ejemplo1">
+     <img src="https://www.monografias.com/trabajos101/registros-estructuras-heterogeneas/image002.jpg" class="ejemplo1">
     <p style="font-size:20px">
-      En la imagen es posible observar que un arreglo bidimensional es una matriz, formada por filas y columnas, en la que cada celda (intersección de fila y columna) representa un espacio de almacenamiento. Las columnas amarillo y rojo representan la primera y última columna respectivamente, y las filas naranja y azul representan la primera y última fila. Para acceder a sus posiciones se utilizan los índice de fila y columna, en ese orden. Recordando que en C y Java el índice inicial es 0.
+     En la imagen es posible observar que tenemos muchas variables dentro de una tabla y esa tabla vedria siendo un registro ya que almacena imformacion de tipo numerico, tipo cadena, tipo real.
     </p>
-     <img src="https://sites.google.com/site/metodologiadhpc/_/rsrc/1468869337785/arreglos/bidimencionales/i.png?height=213&width=400" class="ejemplo2">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JZKuqTLvK7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
   <p style="font-size:20px">
     <br>
-   Con esta imagen es posible apreciar que el vector o arreglo de filas tambien tienen posiciones que va desde 1 hasta 3 y cada posiscion representa un elemento.<br>
-    Tambien es facil ver que existe posiciones en el vector o arreglo de las columnas que va desde 1 hasta 4.<br>
-    Si deseamos encontrar un elemento dentro de la matriz podemos ir a buscarlo desde la posicion en la que se encuentra<br> ejemplo: <br>
-    Quiero buscar el elemento que esta en la poscion (filas, columnas) (2,3), primero van las filas y luego las columnas, el resultado de la busqueda seria: 6<br>
-    ya que se encuentra en la fila 2 y columna 3.
+En este video aprenderas acerca de registros, un poco mas a detalle, trabajaremos los registros en lpp ya que es una herramienta que nos permite trabajar con registros, ya que psint se queda un poco al utilizar registros.
     
   </p>
   </div>
@@ -93,55 +90,84 @@ intermedio | L2G
 	
  
   <div class="col-6 col-s-9">
-    <h1 id="2">ejemplo matrices(video) </h1>
+    <h1 id="2">Registro de vehiculos(video) </h1>
     <p> 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q4NVndqYHig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/My19tbJR2Z0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
  <br>
  <br>
+    <p>
+      En este video encontraras un ejemplo de como utilizar los registros en lpp, con un ejemplo de vehiculos.
+    </p>
 	 
   </div>
 	
 	
 
   <div class="col-6 col-s-9">
-    <h1 id="3"> ejemplo matriz 2x2 </h1>
+    <h1 id="3"> Registros con arreglos </h1>
     <p style="font-size:20px"> 
 	
-      Matrices en pseint
-
-Tal como en excel que existen filas y columnas por cada celda que contiene un valor, tambien en pseint se puede crear una matriz, para lo cual se deben crear dos indices para saber cual es la fila y columna donde se ubicara un valor.<br ><br>
-
-Proceso Matriz<br><br>
-//Primero se crea la matriz de 2 x 2 y se define su tipo, asi como los dos indices para la fila y columna<br><br>
-      <strong>Dimension M [ 2 , 2 ];</strong><br>
-      <strong>Definir M,I,J como Entero;</strong>
-<br><br>       
-    // Leer valores, aqui se cargan los valores en cada celda<br><br>
-      <strong> Para J<-1 Hasta 2 Hacer </strong><br>
-        <strong>Para I<-1 Hasta 2 Hacer</strong><br>
-          <strong>Escribir 'Ingrese valor para indice ',I,', en columna ',J,' : ';</strong><br>
-          <strong>Leer M[ I , J ]</strong><br>
-          <strong>FinPara</strong><br>
-          <strong>FinPara</strong><br><br>
-   
-   
-    // Mostrar valores de cada celda<br><br>
-    
-          <strong>Para I<-1 Hasta 2 Hacer</strong><br>
-            <strong>Para J<-1 Hasta 2 Hacer</strong><br>
-              <strong>Escribir ',El valor para indice ',I,', en columna ',J,'es :', M[ I, J ];</strong><br>           
-              <strong>FinPara</strong><br>
-              <strong>FinPara</strong><br>
-   
-              <strong>FinProceso</strong><br>
-
+      Al hacer una registro en algoritmos pues tienes que saber que un registro posria ser solo una plantilla en la que vas a llenar cualquier tipo de imformacion. ¿Para que usar arreglos? suposngamos que tenemos 5 estudiates y cada uno tiene nombre,edad,codigo d carnet,seccion en la que esta y su grado, y nosotros solo tenemo suna plantilla disponible, entonces con esa polatilla solo pordriamos capturar la imformcacion de solo un alumno, pero no de los otros 4.<br> La solucion es usar un arreglo, un arreglo es una serie de cajitas en la que podemos meter imformacion, entonces con un arreglo que tenga 5 cajitas, podriamos meter la imformcacion del alumnmo #1 en la cajita #1 del arreglo y en la cajita #2 podriamos meter la imformacion del alumno #2 y sucesivamente hasta llegar a agurdar toda la imformacion.
       
-      
-      
-      
-      
+      <br><br>
+     
     </p>
+    <table> Registro alumnos
+      <tr>
+        <td style="border: 2px solid white">
+          <p>
+            Alumno#1<br>
+            Nombre:
+            apellidos:<br>
+            edad:<br>
+            seccion: <br>
+            curso:<br>
+          </p>
+        </td>
+        <td style="border: 2px solid white">
+          <p>
+            Alumno#2<br>
+            Nombre:
+            apellidos:<br>
+            edad:<br>
+            seccion: <br>
+            curso:<br>
+          </p>
+        </td>
+        <td style="border: 2px solid white">
+          <p>
+            Alumno#3<br>
+            Nombre:
+            apellidos:<br>
+            edad:<br>
+            seccion: <br>
+            curso:<br>
+          </p>
+        </td>
+        <tr>
+          <td style="border: 2px solid white">
+          <p>
+           posicion 1
+          </p>
+        </td>
+          <td style="border: 2px solid white">
+          <p>
+           posicion 2
+          </p>
+        </td>
+          <td style="border: 2px solid white">
+          <p>
+           posicion 3
+          </p>
+        </td>
+      </tr>
+      </tr>
+    </table>
+     <p style="font-size:20px">
+       En el esquema anterior pudimos ver que en el arreglo en la posicion 1 aguardamos la imformacion del alumno y en la posicion 2 aguardamos el registro del alumno 2 y podriamos hacer asi sucesimaente
+	</p>
+    
   </div>	
 </div>
 		
@@ -162,3 +188,4 @@ Proceso Matriz<br><br>
 
 </body>
 </html>
+
